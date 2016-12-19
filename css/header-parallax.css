@@ -1,0 +1,114 @@
+
+ /* ========= NAVBAR / HEADER ======== */
+ header {
+ 	position:fixed;
+ 	background-color: #fff;
+ 	width: 100%;
+ 	height: 75px;
+ 	color: #2c312f;
+ 	font-family: 'Cutive Mono';
+ 	font-weight:300;
+ 	padding-left: 20px;
+ 	margin:0 auto;
+ 	z-index: 2;
+ 	-webkit-box-shadow: 0px 1px 12px -1px rgba(42,42,53,0.3);
+ 	-moz-box-shadow: 0px 1px 12px -1px rgba(42,42,53,0.3);
+ 	box-shadow: 0px 1px 12px -1px rgba(42,42,53,0.3);
+ }
+ header img {
+   width: 60px;
+   margin-top:10px;
+ }
+ .arrow img {
+   margin-top:60px;
+ }
+
+ /* NAVBAR */
+ .navbar {
+   height:100%;
+   line-height:3;
+ }
+ .navbar ul {
+ 	list-style-type: none;
+ }
+ .navbar li {
+ 	display:inline-block;
+ 	font-family: 'Quicksand';
+  font-weight:400;
+ 	text-transform: uppercase;
+ 	font-size:16px;
+  text-align:center;
+  margin-right:40px;
+ }
+ .navbar a{
+ 	color:#333333 ;
+ }
+ .navbar a:hover {
+ 	border-bottom:2px solid #5d64d8;
+ }
+
+ /* AFTER SCROLL */
+ header.sticky {
+ 	height: 70px;
+ 	background: rgba(135, 140, 235, .7);
+ 	padding-left: 20px;
+ 	transition: all .5s ease;
+ 	-webkit-transition-delay: .7s; /* Safari */
+ 	transition-delay: .7s;
+ }
+ header.sticky h1 {
+   font-size:30px;
+   line-height:.4;
+ }
+ header.sticky img {
+   bottom:0;
+ }
+ header.sticky .navbar {
+   line-height:2.8;
+   transition: all 0.5s ease;
+	 color: #fff;
+ }
+ header.sticky .navbar a {
+   line-height:2.8;
+	 color: #fff;
+ }
+
+
+ /* ========= PARALLAX ======== */
+ .parallax-container {
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+ .container-small {
+ 	min-height:300px;
+ }
+ .container-skills {
+ 	min-height:400px;
+ }
+ .container-resume {
+   min-height:250px;
+ }
+ .container-large {
+ 	min-height: 420px;
+ }
+ .parallax-container .section {
+   width: 100%;
+ }
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ .parimg {
+ 	width: 700px;
+ }
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }

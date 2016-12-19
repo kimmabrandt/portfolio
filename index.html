@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300|Cabin|Raleway:300|Work+Sans:300,400,500|Quicksand:300,400" rel="stylesheet">
+
+		<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/header-parallax.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/w3.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hello Front-End</title>
+</head>
+<body>
+
+  <header>
+    <div class="row">
+      <div class="col s1">
+        <!-- logo -->
+      </div>
+      <div class="col s2">
+      </div>
+      <div class="col s9 navbar right-align">
+        <ul>
+          <a href="#about"><li>About</li></a>
+          <a href="#work"><li>Work</li></a>
+          <a href="#contact"><li>Contact</li></a>
+          <a href="#resume"><li>Resume</li></a>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <br><br><br>
+
+  <div id="index-banner" class="parallax-container container-large">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="center">Kim Brandt</h1>
+          <h3 class="center">Web Developer</h3>
+
+        <div class="row center arrow">
+          <!-- <h5 class="col s12">╲╱</h5> -->
+          <img src="img/icons/down-arrow.svg" width="36px">
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/mbg2.jpg" class="parimg"></div>
+  </div>
+
+  <!-- ABOUT ME -->
+  <div id="about" class="container aboutme page-section">
+    <div class="row">
+      <div class="col s12">
+        <h3>About</h3>
+      </div>
+    </div>
+    <div class="row valign-wrapper">
+      <div class="col s5 valign valign-wrapper">
+        <img src="img/testphoto.jpg" class="section-img circle valign responsive-img">
+      </div>
+      <div class="col s7 sec-section">
+        <h6>
+          Hello! My name is Kim Brandt and I'm an aspiring graphic designer and web developer residing in Seattle.
+        </h6>
+        <p>
+          I created my first website at the age of 12, and have always been strongly passionate about digital arts, the web, and photography. Currently at age 26, I am a graduate of Western Washington University with a major in Communications and Internet Studies looking to expand my design skills and experience as a freelancer. I have worked with various local clients providing them with websites for small businesses and organizations, posters and flyers for events, and other web and print solutions.
+        </p>
+        <p>
+          <strong>Technical skills:</strong> (x)HTML, CSS, Adobe Photoshop, Illustrator, InDesign & Dreamweaver, some PHP, SQL & JavaScript
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container container-small valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/cloudbg6.jpg" class="parimg"></div>
+  </div>
+
+  <!-- WORK -->
+  <div id="work" class="container work page-section">
+    <div class="row">
+      <div class="col s12">
+        <h3>Work</h3>
+      </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="row">
+      <div class="col s7">
+        <div class="w3-display-container" style="max-width:800px; margin-top:20px;">
+          <div class="w3-btn-floating noselection w3-display-left w3-hover-white" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-btn-floating noselection w3-display-right w3-hover-white" onclick="plusDivs(1)">&#10095;</div>
+          <img class="mySlides w3-animate-opacity" src="img/w4.jpg" style="width:100%">
+          <img class="mySlides w3-animate-opacity" src="img/w3.jpg" style="width:100%">
+
+          <img class="mySlides w3-animate-opacity" src="img/w22.jpg" style="width:100%">
+          <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+        </div>
+      </div>
+      <div class="col s5">
+        <div class="myInfo w3-animate-opacity">
+          <h4>PixaPost</h4>
+          <p>
+            An image sharing app geared towards artists or designers, where users can browse, save, or share inspiring images. Image feed is generated by pulling images via Tumblr API. Users can add images to their personal favorites gallery.
+            <br><br>
+            <strong>Technologies:</strong>  Express, Node.js, AJAX, Javascript, Sequelize, Facebook API/Oauth, Heroku, Bootstrap, HTML5, CSS3, Tumblr API
+          </p>
+        </div>
+        <div class="myInfo w3-animate-opacity">
+          <h4>MyPetPal</h4>
+          <p>
+            Worked in a team of 4 to create a virtual pet app/game. User can perform various activities (feed, play, sleep, etc) and ‘pet’ responds accordingly. Created custom spritesheets and CSS animations.
+            <br><br>
+            <strong>Technologies:</strong> Angular, Javascript, Node.js, Express, MongoDB, Mongoose, HTML5, CSS3, Heroku
+          </p>
+        </div>
+        <div class="myInfo w3-animate-opacity">
+          <h4>Kitty Combat</h4>
+          <p>
+            An arcade style platformer game created with the Phaser.io framework. Included custom graphics and spritesheets.
+            <br><br>
+            <strong>Technologies:</strong> Phaser.io, Javascript, HTML, CSS
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end slider -->
+  </div>
+
+
+  <!-- PARALLAX -->
+  <div id="resume" class="parallax-container container-resume valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <a href="#"><button class="resume-btn">Resume</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/cloudbg6.jpg" class="parimg"></div>
+    <!-- probably 1, 2, 5, or 6 -->
+  </div>
+
+
+  <!-- CONTACT -->
+  <div id="contact" class="container page-section">
+    <div class="row">
+      <div class="col s12">
+        <h3>Contact</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <!-- form -->
+        <form class="contact-form" style="width:700px; margin: 0 auto">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="name" type="text">
+              <label for="first_name">Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <button class="btn accent-1 waves-effect waves-light right" type="submit" name="action" style="background-color:#5eb9e2">Submit
+                  <i class="mdi-content-send right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <!-- end form -->
+      </div>
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end contact -->
+
+
+
+  <!-- FOOTER -->
+  <footer  style="background-color: #777de2">
+    <div class="footer-top valign-wrapper">
+      <div class="container center valign">
+        <a href="mailto:kimmabrandt@gmail.com" target="new"><img src="img/social/email-logo.svg"></a>
+        <a href="http://linkedin.com/in/kimmabrandt" target="new"><img src="img/social/linkedin-logo.svg"></a>
+        <a href="http://linkedin.com/in/kimmabrandt" target="new"><img src="img/social/instagram-logo.svg"></a>
+        <a href="http://twitter.com" target="new"><img src="img/social/twitter-logo.svg"></a>
+      </div>
+    </div>
+    <div class="footer-bottom valign-wrapper center" style="background-color: #5d64d8">
+      <div class="copyright valign">
+        © Copyright Kim Brandt 2016
+      </div>
+    </div>
+  </footer>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script src="js/init.js"></script>
+ </body>
+</html>
