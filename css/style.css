@@ -35,6 +35,16 @@ h3 {
 	font-weight:300;
 	font-size: 36pt;
 }
+h2 {
+	font-weight: 200;
+	border-bottom: 3px solid #fff;
+	color: #fff;
+	margin-bottom:20px;
+	padding-bottom:5px;
+	font-family: 'Quicksand';
+	font-weight:300;
+	font-size: 36pt;
+}
 .container {
 	width: 83%;
 }
@@ -54,6 +64,7 @@ h6 {
 	font-size:16px;
 	margin-top:50px;
 	margin-bottom:70px;
+	padding-top:80px;
 }
 .sec-section {
 margin-right:3%;
@@ -69,7 +80,7 @@ margin-right:3%;
 
 /* ========= WORK / SLIDER ======== */
 .work {
-	height:500px;
+	padding-bottom:40px;
 }
 .mySlides {display:none}
 .myInfo {display:none; margin-left:20px}
@@ -113,6 +124,15 @@ margin-right:3%;
  }
 
  /* ========= FOOTER ======== */
+ #resume {
+	 padding-top:20px;
+ }
+#resume a {
+	color: rgba(255,255,255,.6);
+	font-family: 'Work Sans';
+	font-weight: 300;
+	text-transform: uppercase;
+}
 .resume-btn {
   border: 2px solid #fff;
   color: #fff;
@@ -120,7 +140,7 @@ margin-right:3%;
 	font-family: 'Raleway';
 	font-size: 18px;
 	text-transform: uppercase;
-  padding:20px 40px;
+  padding:20px 45px;
 }
 
 .resume-btn:hover {

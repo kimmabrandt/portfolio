@@ -26,7 +26,7 @@
  /* NAVBAR */
  .navbar {
    height:100%;
-   line-height:3;
+   line-height:2.8;
  }
  .navbar ul {
  	list-style-type: none;
@@ -36,12 +36,13 @@
  	font-family: 'Quicksand';
   font-weight:400;
  	text-transform: uppercase;
- 	font-size:16px;
+  /*color: #c372f2;*/
+ 	font-size:18px;
   text-align:center;
   margin-right:40px;
  }
  .navbar a{
- 	color:#333333 ;
+  color: #4e4752;
  }
  .navbar a:hover {
  	border-bottom:2px solid #5d64d8;
@@ -55,6 +56,7 @@
  	transition: all .5s ease;
  	-webkit-transition-delay: .7s; /* Safari */
  	transition-delay: .7s;
+  color: #fff;
  }
  header.sticky h1 {
    font-size:30px;
@@ -64,12 +66,12 @@
    bottom:0;
  }
  header.sticky .navbar {
-   line-height:2.8;
+   line-height:2.5;
    transition: all 0.5s ease;
 	 color: #fff;
  }
  header.sticky .navbar a {
-   line-height:2.8;
+   line-height:2.5;
 	 color: #fff;
  }
 
