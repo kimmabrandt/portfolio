@@ -90,6 +90,27 @@ margin-right:3%;
 
 
 /* ========= CONTACT ======== */
+.fa {
+	color: #cd95f4;
+	margin-right: 15px;
+}
+.contact-items {
+	font-size: 19px;
+	line-height:3.5;
+	margin-top:2%;
+}
+.ci-text {
+	vertical-align: 8%;
+}
+.contact-btn {
+  border: 2px solid #cd95f4;
+  color: #cd95f4;
+	background-color: transparent;
+	font-family: 'Raleway';
+	font-size: 18px;
+	text-transform: uppercase;
+  padding:4px 25px;
+}
 /* label color */
  .input-field label {
    color: #1b1a18;
@@ -123,16 +144,20 @@ margin-right:3%;
    color: #fff;
  }
 
- /* ========= FOOTER ======== */
- #resume {
-	 padding-top:20px;
+ /* ========= RESUME ======== */
+ #resume a {
+ 	color: rgba(255,255,255,.6);
+ 	font-family: 'Work Sans';
+ 	font-weight: 300;
+ 	text-transform: uppercase;
  }
-#resume a {
-	color: rgba(255,255,255,.6);
-	font-family: 'Work Sans';
-	font-weight: 300;
-	text-transform: uppercase;
-}
+ #resume a:hover {
+ 	color: rgba(255,255,255,.6);
+  background-color: rgba(255,255,255,.6);
+ 	font-family: 'Work Sans';
+ 	font-weight: 300;
+ 	text-transform: uppercase;
+ }
 .resume-btn {
   border: 2px solid #fff;
   color: #fff;
@@ -143,10 +168,11 @@ margin-right:3%;
   padding:20px 45px;
 }
 
-.resume-btn:hover {
+.resume-btn:hover, .resume-btn:active{
 	background-color: #fff;
 	color: grey;
 }
+
 
 /* ========= FOOTER ======== */
  .footer-bottom {

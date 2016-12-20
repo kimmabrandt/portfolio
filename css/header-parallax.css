@@ -75,6 +75,32 @@
 	 color: #fff;
  }
 
+ /*TYPING HEADLINE*/
+ .typed-cursor{
+   opacity: .8;
+   font-weight: normal;
+   -webkit-animation: blink 0.7s infinite;
+   -moz-animation: blink 0.7s infinite;
+   animation: blink 0.7s infinite;
+ }
+ @keyframes blink{
+     0% { opacity:.8; }
+     50% { opacity:0; }
+     100% { opacity:.8; }
+ }
+ @-webkit-keyframes blink{
+     0% { opacity:.8; }
+     50% { opacity:0; }
+     100% { opacity:.8; }
+ }
+ @-moz-keyframes blink{
+     0% { opacity:.8; }
+     50% { opacity:0; }
+     100% { opacity:.8; }
+ }
+/*.typed {
+  border-bottom: 4px solid #932D91;
+}*/
 
  /* ========= PARALLAX ======== */
  .parallax-container {

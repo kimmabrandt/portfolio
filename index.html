@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!--Import Google Icon Font-->
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import Font Awesome-->
+  <script src="https://use.fontawesome.com/5668c183f7.js"></script>
+  <!--Import Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:300|Cabin|Raleway:300|Work+Sans:300,400,500|Quicksand:300,400" rel="stylesheet">
 
@@ -13,7 +14,7 @@
   <link href="css/w3.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hello Front-End</title>
+  <title>Kim Brandt - Full Stack Web Developer</title>
 </head>
 <body>
 
@@ -41,8 +42,9 @@
       <div class="container">
         <br><br>
         <h1 class="center">Kim Brandt</h1>
-          <h3 class="center">Web Developer</h3>
-
+        <h3 class="center">
+          <span id="typed" class="typed"></span>
+        </h3>
         <div class="row center arrow">
           <!-- <h5 class="col s12">╲╱</h5> -->
           <img src="img/icons/down-arrow.svg" width="36px">
@@ -66,13 +68,14 @@
       </div>
       <div class="col s7 sec-section">
         <h6>
-          Hello! My name is Kim Brandt and I'm an aspiring graphic designer and web developer residing in Seattle.
+          Hello! My name is Kim Brandt and I'm a full stack web developer residing in Seattle.
         </h6>
         <p>
-          I created my first website at the age of 12, and have always been strongly passionate about digital arts, the web, and photography. Currently at age 26, I am a graduate of Western Washington University with a major in Communications and Internet Studies looking to expand my design skills and experience as a freelancer. I have worked with various local clients providing them with websites for small businesses and organizations, posters and flyers for events, and other web and print solutions.
+          I created my first website at the age of 12, and have always been strongly passionate about digital arts, the web, and photography. For the past 3 years I’ve been working as a graphic designer, and I’m now switching my focus to web development. I recently graduated from the Web Dev Immersive program at General Assembly, which was an intensive 3 month program which allowed me to sharpen up my skills and fully prepare me to be a full stack web developer. At GA I created several fully dynamic, responsive web apps both solo and on teams, which you can check out below.
+          <!-- I created my first website at the age of 12, and have always been strongly passionate about digital arts, the web, and photography. Currently at age 26, I am a graduate of Western Washington University with a major in Communications and Internet Studies looking to expand my design skills and experience as a freelancer. I have worked with various local clients providing them with websites for small businesses and organizations, posters and flyers for events, and other web and print solutions. -->
         </p>
         <p>
-          <strong>Technical skills:</strong> (x)HTML, CSS, Adobe Photoshop, Illustrator, InDesign & Dreamweaver, some PHP, SQL & JavaScript
+          <!-- <strong>Technical skills:</strong> (x)HTML, CSS, Adobe Photoshop, Illustrator, InDesign & Dreamweaver, some PHP, SQL & JavaScript -->
         </p>
       </div>
     </div>
@@ -174,9 +177,14 @@
       </div>
     </div>
     <div class="row">
-      <div class="col s12">
+      <div class="col s5 contact-items">
+        <i class="fa fa-2x fa-envelope fa-fw" aria-hidden="true"></i> <span class="ci-text">kimmabrandt@gmail.com</span><br>
+        <i class="fa fa-2x fa-linkedin fa-fw" aria-hidden="true"></i> <span class="ci-text">linkedin.com/in/kimmabrandt</span><br>
+        <i class="fa fa-2x fa-twitter fa-fw" aria-hidden="true"></i> <span class="ci-text">twitter.com/kimmybrandt</span><br>
+      </div>
+      <div class="col s7">
         <!-- form -->
-        <form class="contact-form" style="width:700px; margin: 0 auto">
+        <form class="contact-form">
           <div class="row">
             <div class="input-field col s12">
               <input id="name" type="text">
@@ -195,8 +203,8 @@
               <label for="message">Message</label>
             </div>
             <div class="row">
-              <div class="input-field col s12">
-                <button class="btn accent-1 waves-effect waves-light right" type="submit" name="action" style="background-color:#5eb9e2">Submit
+              <div class="input-field col s12 right-align">
+                <button class="contact-btn" type="submit" name="action">Submit
                   <i class="mdi-content-send right"></i>
                 </button>
               </div>
@@ -230,8 +238,10 @@
   </footer>
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src='https://cdn.rawgit.com/mattboldt/typed.js/master/dist/typed.min.js'></script>
   <!-- Materialize -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/js.js"></script>
  </body>
 </html>
