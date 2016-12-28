@@ -10,22 +10,20 @@
 		<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/footer.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/social.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/header-parallax.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/w3.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
   <title>Kim Brandt - Full Stack Web Developer</title>
 </head>
 <body>
 
   <header>
     <div class="row">
-      <div class="col s1">
-        <!-- logo -->
-      </div>
-      <div class="col s2">
-      </div>
-      <div class="col s9 navbar right-align">
+      <div class="col s12 navbar right-align">
         <ul>
           <a href="#about"><li>About</li></a>
           <a href="#work"><li>Work</li></a>
@@ -62,11 +60,11 @@
         <h3>About</h3>
       </div>
     </div>
-    <div class="row valign-wrapper">
-      <div class="col s5 valign valign-wrapper">
-        <img src="img/testphoto.jpg" class="section-img circle valign responsive-img">
+    <div class="row">
+      <div class="col m5 valign center valign-wrapper">
+        <img src="img/testphoto.jpg" class="section-img circle valign">
       </div>
-      <div class="col s7 sec-section">
+      <div class="col m7">
         <h6>
           Hello! My name is Kim Brandt and I'm a full stack web developer residing in Seattle.
         </h6>
@@ -81,17 +79,20 @@
     </div>
   </div>
 
-  <div class="parallax-container container-small valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
+  <div class="parallax-container container-skills valign-wrapper">
+      <div class="container valign">
         <div class="row center">
-          <div class="col s12 center">
-            <img src="img/skill-icons.png" width="100%">
+          <div class="col s12 center skills-icons-cont">
+            <div class="skills-icons center">
+              <img src="img/skills-icons1.svg" width="100%">
+            </div>
+            <div class="skills-icons center">
+              <img src="img/skills-icons2.svg" width="100%">
+            </div>
           </div>
-
         </div>
       </div>
-    </div>
+
     <div class="parallax"><img src="img/cloudbg6.jpg" class="parimg"></div>
   </div>
 
@@ -105,22 +106,24 @@
 
     <!-- Slider -->
     <div class="row">
-      <div class="col s7">
+      <div class="col s12 m7">
         <div class="w3-display-container" style="max-width:800px; margin-top:20px;">
           <div class="w3-btn-floating noselection w3-display-left w3-hover-white" onclick="plusDivs(-1)">&#10094;</div>
           <div class="w3-btn-floating noselection w3-display-right w3-hover-white" onclick="plusDivs(1)">&#10095;</div>
           <img class="mySlides w3-animate-opacity" src="img/w4.jpg" style="width:100%">
           <img class="mySlides w3-animate-opacity" src="img/w3.jpg" style="width:100%">
-
-          <img class="mySlides w3-animate-opacity" src="img/w22.jpg" style="width:100%">
+          <img class="mySlides w3-animate-opacity" src="img/w5.gif" style="width:100%">
+          <img class="mySlides w3-animate-opacity" src="img/w8.gif" style="width:100%">
           <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
           </div>
         </div>
+        <br>
       </div>
-      <div class="col s5">
+      <div class="col s12 m5">
         <div class="myInfo w3-animate-opacity">
           <h4>PixaPost</h4>
           <p>
@@ -135,6 +138,14 @@
             Worked in a team of 4 to create a virtual pet app/game. User can perform various activities (feed, play, sleep, etc) and ‘pet’ responds accordingly. Created custom spritesheets and CSS animations.
             <br><br>
             <strong>Technologies:</strong> Angular, Javascript, Node.js, Express, MongoDB, Mongoose, HTML5, CSS3, Heroku
+          </p>
+        </div>
+        <div class="myInfo w3-animate-opacity">
+          <h4>my.Life</h4>
+          <p>
+            A goal setting app created with Ruby on Rails. Includes login/signup authorization and CRUD features using a PostgreSQL database. Users can add and edit goals on their personal account, and can also leave notes/comments on each goal.
+            <br><br>
+            <strong>Technologies:</strong> Ruby on Rails, PostgreSQL, Materialize, HTML/CSS
           </p>
         </div>
         <div class="myInfo w3-animate-opacity">
@@ -177,14 +188,14 @@
       </div>
     </div>
     <div class="row">
-      <div class="col s5 contact-items">
-        <i class="fa fa-2x fa-envelope fa-fw" aria-hidden="true"></i> <span class="ci-text">kimmabrandt@gmail.com</span><br>
-        <i class="fa fa-2x fa-linkedin fa-fw" aria-hidden="true"></i> <span class="ci-text">linkedin.com/in/kimmabrandt</span><br>
-        <i class="fa fa-2x fa-twitter fa-fw" aria-hidden="true"></i> <span class="ci-text">twitter.com/kimmybrandt</span><br>
+      <div class="col s12 m5 contact-items">
+        <a href="mailto:kimmmybrandt@gmail.com" target="new"><i class="fa fa-2x fa-envelope fa-fw" aria-hidden="true"></i> <span class="ci-text">kimmabrandt@gmail.com</span></a><br>
+        <a href="http://linkedin.com/in/kimmabrandt" target="new"><i class="fa fa-2x fa-linkedin fa-fw" aria-hidden="true"></i> <span class="ci-text">linkedin.com/in/kimmabrandt</span></a><br>
+        <br>
       </div>
-      <div class="col s7">
+      <div class="col s12 m7">
         <!-- form -->
-        <form class="contact-form">
+        <form class="contact-form" action="mailto:kimmabrandt@gmail.com" method="post" enctype="text/plain">
           <div class="row">
             <div class="input-field col s12">
               <input id="name" type="text">
@@ -224,10 +235,14 @@
   <footer  style="background-color: #777de2">
     <div class="footer-top valign-wrapper">
       <div class="container center valign">
-        <a href="mailto:kimmabrandt@gmail.com" target="new"><img src="img/social/email-logo.svg"></a>
-        <a href="http://linkedin.com/in/kimmabrandt" target="new"><img src="img/social/linkedin-logo.svg"></a>
-        <a href="http://linkedin.com/in/kimmabrandt" target="new"><img src="img/social/instagram-logo.svg"></a>
-        <a href="http://twitter.com" target="new"><img src="img/social/twitter-logo.svg"></a>
+        <!-- email -->
+        <a class="email-svg" href="mailto:kimmabrandt@gmail.com" target="new"></a>
+        <!-- linkedin -->
+        <a class="linkedin-svg" href="http://linkedin.com/in/kimmabrandt" target="new"></a>
+        <!-- instagram -->
+        <a class="instag-svg" href="http://instagram.com/kimiiaria" target="new"></a>
+        <!-- twitter -->
+        <a class="twitter-svg" href="http://twitter.com" target="new"></a>
       </div>
     </div>
     <div class="footer-bottom valign-wrapper center" style="background-color: #5d64d8">

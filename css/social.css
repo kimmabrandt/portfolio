@@ -1,0 +1,29 @@
+
+	/*social media icons*/
+.instag-svg {
+	background: transparent url("../img/social/instag.svg") no-repeat 0 0;
+	margin: 0 5px;
+}
+.email-svg {
+	background: transparent url("../img/social/email.svg") no-repeat 0 0;
+	margin: 0 5px;
+}
+.linkedin-svg {
+	background: transparent url("../img/social/linked.svg") no-repeat 0 0;
+	margin: 0 5px;
+}
+.twitter-svg {
+	background: transparent url("../img/social/twitter.svg") no-repeat 0 0;
+	margin: 0 5px;
+}
+
+.instag-svg, .email-svg, .linkedin-svg, .twitter-svg{
+	background-size: 50px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+.instag-svg:hover, .email-svg:hover, .linkedin-svg:hover, .twitter-svg:hover{
+	background-position: 0 -50px;
+}

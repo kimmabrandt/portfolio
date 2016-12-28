@@ -72,10 +72,43 @@ margin-right:3%;
 
 /* ========= ABOUT ME ======== */
 .section-img {
-	width: 65%;
 	margin-left:15%;
-	margin-right:20%;
+	margin-right:15%;
+	width: 70%;
 }
+@media(max-width:900px ){
+.section-img {
+	 width: 75%;
+	}
+}
+@media(max-width:600px ){
+.section-img {
+	 width: 60%;
+	 margin-bottom: 10%;
+	}
+}
+
+/* ========= SKILLS ======== */
+.skills-icons {
+	display: inline;
+	float:left;
+	width:50%;
+}
+@media(max-width:800px ){
+	.skills-icons {
+		display: block;
+		margin-top:5%;
+		width: 100%;
+	}
+	.skills-icons img {
+		width:80%;
+	}
+	.skills-icons-cont {
+		margin-top:5%;
+		margin-bottom: 5%;
+	}
+}
+
 
 
 /* ========= WORK / SLIDER ======== */
@@ -88,61 +121,6 @@ margin-right:3%;
 .w3-badge {height:13px;width:13px;padding:0}
 
 
-
-/* ========= CONTACT ======== */
-.fa {
-	color: #cd95f4;
-	margin-right: 15px;
-}
-.contact-items {
-	font-size: 19px;
-	line-height:3.5;
-	margin-top:2%;
-}
-.ci-text {
-	vertical-align: 8%;
-}
-.contact-btn {
-  border: 2px solid #cd95f4;
-  color: #cd95f4;
-	background-color: transparent;
-	font-family: 'Raleway';
-	font-size: 18px;
-	text-transform: uppercase;
-  padding:4px 25px;
-}
-/* label color */
- .input-field label {
-   color: #1b1a18;
- }
- /* label focus color */
- .input-field input[type=text]:focus + label, , .input-field textarea[type=text]:focus + label {
-   color: #1b1a18;
- }
- .input-field input, .input-field textarea {
-	 border-bottom: 1px solid #1b1a18;
-	 box-shadow: 0 1px 0 0 #1b1a18;
-	 color: #1b1a18
- }
- /* label underline focus color */
- .input-field input[type=text]:focus, .input-field textarea[type=text]:focus {
-   border-bottom: 1px solid #fff;
-   box-shadow: 0 1px 0 0 #fff;
- }
- /* valid color */
- .input-field input[type=text].valid, .input-field textarea[type=text]:valid {
-   border-bottom: 1px solid #fff;
-   box-shadow: 0 1px 0 0 #fff;
- }
- /* invalid color */
- .input-field input[type=text].invalid, .input-field textarea[type=text]:invalid {
-   border-bottom: 1px solid #fff;
-   box-shadow: 0 1px 0 0 #fff;
- }
- /* icon prefix focus color */
- .input-field .prefix.active {
-   color: #fff;
- }
 
  /* ========= RESUME ======== */
  #resume a {
@@ -172,27 +150,3 @@ margin-right:3%;
 	background-color: #fff;
 	color: grey;
 }
-
-
-/* ========= FOOTER ======== */
- .footer-bottom {
- 	height: 60px;
- }
- .footer-top {
- 	height: 160px;
- }
- .footer-top img {
- 	width: 50px;
- 	margin: 0 6px;
-	margin-top: 10px;
- }
- .footer-top img:hover {
-	fill: #ace63c;
- }
-
- .copyright {
- 	margin: 0 auto;
- 	color: rgba(255,255,255,.6);
- 	font-family: 'Work Sans';
- 	font-weight: 300;
- }

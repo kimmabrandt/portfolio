@@ -47,7 +47,21 @@
  .navbar a:hover {
  	border-bottom:2px solid #5d64d8;
  }
-
+ @media(max-width:520px ){
+   .navbar li {
+    font-size:17px;
+    margin-right:25px;
+    font-weight: bold;
+   }
+ }
+ @media(max-width:440px ){
+   .navbar li {
+    font-size:15px;
+    margin-right:22px;
+    font-weight: bold;
+    line-height: 3.2;
+   }
+ }
  /* AFTER SCROLL */
  header.sticky {
  	height: 70px;
@@ -108,11 +122,8 @@
    height: auto;
    color: rgba(255,255,255,.9);
  }
- .container-small {
- 	min-height:300px;
- }
  .container-skills {
- 	min-height:400px;
+ 	min-height:320px;
  }
  .container-resume {
    min-height:250px;
