@@ -170,7 +170,7 @@
           <a href="img/Kim Brandt - Resume.pdf" target="new"><button class="resume-btn">Resume</button></a><br>
         </div>
         <div class="row center">
-          <a href="img/Kim Brandt - Resume(plain text).pdf" target="new">(plain text)</a>
+          <a href="img/Kim Brandt - Resume_text.pdf" target="new">(plain text)</a>
         </div>
 
       </div>
@@ -188,29 +188,32 @@
       </div>
     </div>
     <div class="row">
-      <div class="col s12 m5 contact-items">
+      <div class="col s12 m12 l5 contact-items">
         <a href="mailto:kimmmybrandt@gmail.com" target="new"><i class="fa fa-2x fa-envelope fa-fw" aria-hidden="true"></i> <span class="ci-text">kimmabrandt@gmail.com</span></a><br>
         <a href="http://linkedin.com/in/kimmabrandt" target="new"><i class="fa fa-2x fa-linkedin fa-fw" aria-hidden="true"></i> <span class="ci-text">linkedin.com/in/kimmabrandt</span></a><br>
         <br>
       </div>
-      <div class="col s12 m7">
+      <div class="col s12 m12 l7">
+        <!-- form messages -->
+        <div id="form-messages">
+        </div>
         <!-- form -->
-        <form class="contact-form" action="mailto:kimmabrandt@gmail.com" method="post" enctype="text/plain">
+        <form id="ajax-contact" class="contact-form" action="js/mailer.php" method="post">
           <div class="row">
             <div class="input-field col s12">
-              <input id="name" type="text">
-              <label for="first_name">Name</label>
+              <input type="text" id="name" name="name">
+              <label for="name">Name</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="email" type="email">
+              <input type="email" id="email" name="email">
               <label for="email">Email</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <textarea id="message" class="materialize-textarea"></textarea>
+              <textarea id="message" name="message" class="materialize-textarea"></textarea>
               <label for="message">Message</label>
             </div>
             <div class="row">
@@ -257,6 +260,7 @@
   <!-- Materialize -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/app.js"></script>
   <script src="js/js.js"></script>
  </body>
 </html>
