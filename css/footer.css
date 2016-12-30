@@ -29,6 +29,11 @@
 	text-transform: uppercase;
   padding:4px 25px;
 }
+.contact-btn:hover {
+  border: 2px solid #cd95f4;
+  background-color: #cd95f4;
+  color: #fff;
+}
 /* label color */
  .input-field label {
    color: #000;
