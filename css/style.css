@@ -119,7 +119,7 @@ margin-right:3%;
 .myInfo {display:none; margin-left:20px}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-.work-btn {
+.myInfo button {
   border: 2px solid #cd95f4;
   color: #cd95f4;
 	background-color: transparent;
@@ -128,7 +128,7 @@ margin-right:3%;
 	text-transform: uppercase;
   padding:2px 28px;
 }
-.work-btn:hover {
+.myInfo button:hover {
   border: 2px solid #cd95f4;
   background-color: #cd95f4;
   color: #fff;
