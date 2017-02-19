@@ -117,8 +117,8 @@ margin-right:3%;
 .work {
 	padding-bottom:40px;
 }
-.mySlides {display:none}
-.myInfo {display:none; margin-left:20px}
+.mySlides {}
+.myInfo {margin-left:20px}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 .myInfo button {
@@ -132,7 +132,7 @@ margin-right:3%;
 	height: 33px;
 	margin-top:10px;
 	margin-right:10px;
-	
+
 }
 .myInfo button:hover {
   border: 2px solid #cd95f4;

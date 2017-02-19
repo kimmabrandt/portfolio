@@ -29,7 +29,6 @@ h3 {
 	/*border-bottom: 3px solid #777de2;*/
 	/*border-bottom: 3px solid #5eb9e2;*/
 	/*border-bottom: 3px solid #5c91e1;*/
-	border-bottom: 3px solid #76a3e6;
 
 	margin-bottom:20px;
 	padding-bottom:5px;
@@ -37,6 +36,7 @@ h3 {
 	font-weight:300;
 	font-size: 36pt;
 }
+
 h2 {
 	font-weight: 200;
 	border-bottom: 3px solid #fff;
@@ -117,13 +117,12 @@ margin-right:3%;
 .work {
 	padding-bottom:40px;
 }
-.mySlides {display:none}
-.myInfo {display:none; margin-left:20px}
+.myInfo { margin-left:20px}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 .myInfo button {
-  border: 2px solid #cd95f4;
-  background-color: #cd95f4;
+  border: 2px solid #a3c0ff;
+  background-color: #a3c0ff;
 	color: #fff;
 	font-family: 'Raleway';
 	font-size: 17px;
@@ -135,11 +134,23 @@ margin-right:3%;
 
 }
 .myInfo button:hover {
-  border: 2px solid #cd95f4;
+  border: 2px solid #a3c0ff;
   background-color: #fff;
-  color: #cd95f4;
+  color: #a3c0ff;
 }
-
+.divider {
+  border: 1px solid rgb(221, 221, 221);
+	height: 0;
+  width: 80%;
+  margin-bottom:40px;
+  margin-top:40px
+}
+.h3-heading {
+border: 2px solid rgb(193, 215, 249);
+width: 50%;
+margin-top:5px;
+margin-bottom:20px;
+}
 
 
  /* ========= RESUME ======== */
@@ -160,8 +171,8 @@ margin-right:3%;
   border: 2px solid #fff;
   color: #fff;
 	background-color: transparent;
-	font-family: 'Raleway';
-	font-size: 18px;
+	font-family: 'Quicksand';
+	font-size:30px;
 	text-transform: uppercase;
   padding:20px 45px;
 }

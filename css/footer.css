@@ -1,7 +1,7 @@
 
 /* ========= CONTACT ======== */
 .fa {
-	color: #cd95f4;
+	color: #a3c0ff;
 	margin-right: 15px;
 }
 .contact-items {
@@ -21,18 +21,18 @@
 
 /* contact form */
 .contact-btn {
-  border: 2px solid #cd95f4;
-  color: #cd95f4;
-	background-color: transparent;
+  border: 2px solid #a3c0ff;
+  color: #fff;
+	background-color: #a3c0ff;
 	font-family: 'Raleway';
 	font-size: 18px;
 	text-transform: uppercase;
   padding:4px 25px;
 }
 .contact-btn:hover {
-  border: 2px solid #cd95f4;
-  background-color: #cd95f4;
-  color: #fff;
+  border: 2px solid #a3c0ff;
+  background-color: #fff;
+  color: #a3c0ff;
 }
 /* label color */
  .input-field label {
