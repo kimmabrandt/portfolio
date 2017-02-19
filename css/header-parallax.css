@@ -45,7 +45,8 @@
   color: #4e4752;
  }
  .navbar a:hover {
- 	border-bottom:2px solid #5d64d8;
+ 	border-bottom:2px solid #777de2;
+  padding-bottom: 5px;
  }
  @media(max-width:520px ){
    .navbar li {
@@ -96,6 +97,10 @@
    line-height:2.5;
 	 color: #fff;
  }
+ header.sticky .navbar a:hover {
+   border-bottom:2px solid #fff;
+  padding-bottom: 5px;
+ }
 
  /*TYPING HEADLINE*/
  .typed-cursor{
@@ -120,9 +125,7 @@
      50% { opacity:0; }
      100% { opacity:.8; }
  }
-/*.typed {
-  border-bottom: 4px solid #932D91;
-}*/
+
 
  /* ========= PARALLAX ======== */
  .parallax-container {

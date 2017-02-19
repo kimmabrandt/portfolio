@@ -98,8 +98,12 @@
 }
 
 /* ========= FOOTER ======== */
+	footer {
+		background-color: #777de2;
+	}
  .footer-bottom {
  	height: 60px;
+	background-color: #5d64d8;
  }
  .footer-top {
  	height: 160px;
